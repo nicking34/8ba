@@ -1,0 +1,246 @@
+/*°Ë°ÉCSS±í*/
+
+a{
+	text-decoration:none;
+} 
+
+body {
+	margin:0;
+	padding:0;
+	background:url('../images/bgpic.jpg') repeat;
+}
+
+/*banner*/
+.banner{
+	background:url('../images/rainbow.jpg') repeat-x;
+	height:85px;
+	width:100%;
+	margin-top:-15px;
+}
+
+.banner_title{
+	margin-left:15%;
+	padding-top:20px;
+}
+
+.banner_title h1{
+	color:white;
+	display : inline;
+}
+
+.banner_title span{
+	color:white;
+	display:inline-block;
+	margin-left:20px;
+}
+
+/*¶¥²¿*/
+#header {
+	width:100%;
+	margin:-12px auto 0 auto;
+	padding:1px 0 2px 0;
+	background: rgba(229,230,255, .5);
+	height:50px;
+	/*border-bottom:solid rgb(151,152,166) thin;*/
+	background:url('../images/navpic.jpg') repeat-x;
+}
+
+
+/*LOGO
+.logo img{
+	max-height:30px;
+	width:expression(this.height>50?50px:this.height);
+	overflow:hidden;
+	margin:-10px auto 0 auto;
+	float:left;
+}
+*/
+
+/*¶¥²¿µ¼º½*/
+#nav {
+	width:1040px;
+	margin:auto;
+}
+
+ul{
+	list-style-type:none;
+}
+
+#nav ul li{
+	display:inline;
+	margin:0 10px 0 10px;
+}
+
+#nav a{
+	color:black;
+	font-weight:600;
+	text-decoration:none;
+}
+
+#nav span{
+	float:right;
+}
+
+/*ÄÚÈÝÀ¸*/
+#contentbox{
+	width:1024px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	background:url('../images/bgpic.jpg') repeat;
+}
+
+
+/*×ó²àÀ¸*/
+#leftbox{
+	width:750px;
+	/*height:100%;*/
+	background:url('../images/bgpic.jpg') repeat;
+	float:left:
+	padding:0;
+}
+
+
+/*¶þ¼¶µ¼º½*/
+#secnav{
+	background:white;
+	margin:0;
+	padding:1px 0 1px 0;
+}
+
+#secnav ul li{
+	display:inline;
+	padding:4px
+}
+
+
+#secnav a{
+	color:gray;
+}
+
+/*NewsFeed*/
+.feed_line{
+	background-color:white;
+	margin:0px;
+	padding:0px;
+}
+
+.feedbox img{
+	margin-left:5px;
+	margin-top:5px;
+	max-height:30px;
+	width:expression(this.width>30?30px:this.width);
+	overflow:hidden;
+	float:left;
+}
+
+
+.operate img{
+	max-height:20px;
+	width:expression(this.width>20?20px:this.width);
+	overflow:hidden;
+	float:left;
+}
+
+.operate ul li{
+	display:inline;
+}
+
+.msgCnt h4,a{
+	padding-top:10px;
+	color:gray;
+}
+
+.msgCnt {
+	margin-left:15px;
+	margin-right:10px;
+}
+
+.islike{
+	display:inline-block;
+	border:solid rgb(200,200,200) thin ;
+	margin-left:15px;
+}
+
+.share a{
+	margin:0,50px,0,5px;
+}
+
+.share{
+	float:right;
+	margin-right:30px;
+	display:inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ÓÒ²àÀ¸*/
+#rightbox{
+	float:right;
+	width:250px;
+	background-color: white;
+	height:500px;
+}
+
+.namecard {
+	margin-left:10px;
+	margin-top:20px;
+	clear:right;
+}
+
+.namecard img{
+	max-height:80px;
+	width:expression(this.width>80?80px:this.width);
+	overflow:hidden;
+	float:left;
+}
+
+.namecard span{
+	font-weight:600;
+}
+
+.infbox{
+ margin-top:80px;
+}
+
+.infbox table{
+ border-collapse: separate;
+ border-spacing: 20px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

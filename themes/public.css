@@ -39,9 +39,7 @@ body {
 	width:100%;
 	margin:-12px auto 0 auto;
 	padding:1px 0 2px 0;
-	background: rgba(229,230,255, .5);
 	height:50px;
-	/*border-bottom:solid rgb(151,152,166) thin;*/
 	background:url('../images/navpic.jpg') repeat-x;
 }
 
@@ -67,19 +65,60 @@ ul{
 }
 
 #nav ul li{
-	display:inline;
 	margin:0 10px 0 10px;
+	position: relative ;
+	z-index:100;
+	float:left;
 }
 
-#nav a{
+#nav ul li a{
+	display:block;
+	padding:0 8px;
 	color:black;
 	font-weight:600;
 	text-decoration:none;
 }
 
+#nav ul li a:hover{
+	color:rgb(126,206,253);/*¿∂…´*/
+}
+
 #nav span{
 	float:right;
 }
+
+#nav ul li ul{
+	margin-top:8px;
+	padding:0;
+	position:absolute;
+	width:90px;
+	overflow:hidden;
+	border:rgb(151,152,166) solid thin;
+	border-top:white;
+	background:white;
+	display:none;
+}
+
+#nav .wider ul{
+	width:150px;
+}
+
+#nav li ul li a{
+	color:black;
+	font-weight:400;
+	margin:0;
+	padding:0;
+	font-size:12px;
+	margin-bottom:3px;
+}
+
+#nav li ul li a:hover{
+	/*background:none; */
+	color:rgb(151,152,166);
+}
+
+
+
 
 /*ƒ⁄»›¿∏*/
 #contentbox{
@@ -125,19 +164,27 @@ ul{
 	padding:0px;
 }
 
-.feedbox img{
-	margin-left:5px;
-	margin-top:5px;
+.userPic{
+	margin-left:10px;
+	margin-top:10px;
+	float:none;
+	display:block;
+}
+
+.userPic img{
 	max-height:30px;
 	width:expression(this.width>30?30px:this.width);
 	overflow:hidden;
-	float:left;
+}
+
+.userPic span,a{
+	color:gray;
 }
 
 
 .operate img{
-	max-height:20px;
-	width:expression(this.width>20?20px:this.width);
+	max-height:15px;
+	width:expression(this.width>15?15px:this.width);
 	overflow:hidden;
 	float:left;
 }
@@ -146,24 +193,25 @@ ul{
 	display:inline;
 }
 
-.msgCnt h4,a{
-	padding-top:10px;
-	color:gray;
-}
 
 .msgCnt {
 	margin-left:15px;
 	margin-right:10px;
+	font-size:14px;
 }
 
 .islike{
 	display:inline-block;
 	border:solid rgb(200,200,200) thin ;
 	margin-left:15px;
+	margin-bottom:2px;
+	color:gray;
+	font-size:10px;
 }
 
 .share a{
 	margin:0,50px,0,5px;
+	font-size:12px;
 }
 
 .share{
@@ -173,25 +221,12 @@ ul{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*”“≤‡¿∏*/
 #rightbox{
 	float:right;
 	width:250px;
 	background-color: white;
-	height:500px;
+	height:auto;
 }
 
 .namecard {
@@ -220,26 +255,15 @@ ul{
  border-spacing: 20px 10px;
 }
 
+.infbox a span{
+	color:gray;
+	font-weight:400;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.infbox a{
+	color:CornflowerBlue ;
+	font-weight:600;
+}
 
 
 
